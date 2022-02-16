@@ -49,6 +49,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/standard"
+            android:checked="true"
             android:onClick="onRadioButtonClicked"/>
         <RadioButton android:id="@+id/radio_ninjas"
             android:layout_width="wrap_content"
@@ -94,6 +95,60 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
     </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:text="@string/feature" />
+        <Spinner
+            android:id="@+id/feature_spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+
+            android:text="@string/province" />
+        <AutoCompleteTextView
+            android:id="@+id/province"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:ems="10"
+            android:hint="Name"
+            android:inputType="text"
+            android:selectAllOnFocus="true" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:text="@string/date" />
+
+        <DatePicker
+            android:id="@+id/datePicker2"
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            android:calendarViewShown="false"
+            android:datePickerMode="spinner" />
+    </LinearLayout>
+
 
     app:layout_constraintEnd_toEndOf="parent"
     app:layout_constraintStart_toStartOf="parent"

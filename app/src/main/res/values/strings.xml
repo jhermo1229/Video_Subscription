@@ -14,4 +14,17 @@
         <item>2</item>
         <item>4</item>
     </string-array>
+    <string name="feature">Feature</string>
+    <string-array name="standard_array">
+        <item>None</item>
+        <item>Multi-device Downloads</item>
+        <item>Watch on Laptop</item>
+    </string-array>
+    <string-array name="premium_array">
+        <item>None</item>
+        <item>Ultra HD</item>
+        <item>Priority Support</item>
+    </string-array>
+    <string name="province">Province</string>
+    <string name="date">Date</string>
 </resources>
