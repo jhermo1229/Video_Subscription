@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Assignment1</string>
+    <string name="title">Netmax Video Subscription</string>
+    <string name="name">Name</string>
+    <string name="plan">Choose Plan Type</string>
+    <string name="standard">Standard</string>
+    <string name="premium">Premium</string>
+    <string name="addition">Addition</string>
+    <string name="unli">Unlimited Movies</string>
+    <string name="hd">HD</string>
+    <string name="screen">Number of screen</string>
+    <string-array name="screen_array">
+        <item>1</item>
+        <item>2</item>
+        <item>4</item>
+    </string-array>
+</resources>
