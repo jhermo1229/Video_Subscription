@@ -11,7 +11,7 @@
         android:layout_height="35dp"
         android:text="@string/title"
         android:textStyle="bold"
-        android:textColor="#FF0000"
+        android:textColor="@color/red"
         android:textSize="20dp"
         android:gravity="center"/>
 
@@ -25,7 +25,7 @@
             android:layout_height="match_parent"
             android:gravity="center_vertical"
             android:textStyle="bold"
-            android:textColor="#6200EE"
+            android:textColor="@color/purple_500"
             android:text="@string/name" />
         <EditText
             android:id="@+id/name"
@@ -46,7 +46,7 @@
             android:layout_width="150dp"
             android:layout_height="match_parent"
             android:textStyle="bold"
-            android:textColor="#6200EE"
+            android:textColor="@color/purple_500"
             android:text="@string/plan" />
         <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
             android:layout_width="match_parent"
@@ -74,7 +74,7 @@
             android:layout_width="150dp"
             android:layout_height="match_parent"
             android:textStyle="bold"
-            android:textColor="#6200EE"
+            android:textColor="@color/purple_500"
             android:text="@string/addition" />
         <CheckBox android:id="@+id/unlimited_movies"
             android:layout_width="wrap_content"
@@ -97,7 +97,7 @@
             android:layout_width="150dp"
             android:layout_height="match_parent"
             android:textStyle="bold"
-            android:textColor="#6200EE"
+            android:textColor="@color/purple_500"
             android:text="@string/screen" />
         <Spinner
             android:id="@+id/screen_spinner"
@@ -114,7 +114,7 @@
             android:layout_width="150dp"
             android:layout_height="match_parent"
             android:textStyle="bold"
-            android:textColor="#6200EE"
+            android:textColor="@color/purple_500"
             android:text="@string/feature" />
         <Spinner
             android:id="@+id/feature_spinner"
@@ -132,7 +132,7 @@
             android:layout_height="match_parent"
             android:gravity="center_vertical"
             android:textStyle="bold"
-            android:textColor="#6200EE"
+            android:textColor="@color/purple_500"
             android:text="@string/province" />
         <AutoCompleteTextView
             android:id="@+id/province"
@@ -155,7 +155,7 @@
             android:layout_height="match_parent"
             android:gravity="center_vertical"
             android:textStyle="bold"
-            android:textColor="#6200EE"
+            android:textColor="@color/purple_500"
             android:text="@string/date" />
 
         <DatePicker
@@ -178,7 +178,7 @@
             android:layout_height="wrap_content"
             android:gravity="center"
             android:textStyle="bold"
-            android:textColor="#FFFFFF"
+            android:textColor="@color/white"
             android:text="@string/submit"
             tools:layout_editor_absoluteX="100dp"
             tools:layout_editor_absoluteY="100dp" />
